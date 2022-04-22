@@ -9,8 +9,8 @@ import commonjs from '@rollup/plugin-commonjs';
 var componentPath
 var serverPath
 if ((process.env.BUILD !== 'production')) {
-    componentPath = "https://blair-vue-apps.ngrok.io/vue-apps/";
-    serverPath = "https://blair-core.ngrok.io/build/";
+    componentPath = "https://wendygui.github.io/vue-apps/";
+    serverPath = "https://wendygui.github.io/core-components/";
 } else {
     componentPath = "https://resources.realitymedia.digital/vue-apps/";
     serverPath = "https://resources.realitymedia.digital/core-components/";
